@@ -9,7 +9,7 @@ public class PostmanTest {
 
     @Test
     void shouldReturnSendData() {
-        String text = "Привет мое имя";
+        String text = "Hi my name is";
         given()
                 .baseUri("https://postman-echo.com")
                 .body(text)
